@@ -1,0 +1,83 @@
+/* ===== LeetMentor Popup UI ===== */
+
+body {
+  width: 260px;
+  padding: 14px;
+
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+
+  background: #0f1117;           /* deep dark, dev-friendly */
+  color: #e6e6e6;
+}
+
+/* Title */
+h2 {
+  margin: 0 0 10px 0;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: #f3f4f6;
+}
+
+/* Dropdown + Button shared */
+select,
+button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px 10px;
+
+  border-radius: 6px;
+  border: 1px solid #2a2d3a;
+
+  background: #161a23;
+  color: #e6e6e6;
+
+  font-size: 12.5px;
+  transition: all 0.2s ease;
+}
+
+/* Dropdown */
+select {
+  appearance: none;
+  cursor: pointer;
+}
+
+/* Button */
+button {
+  font-weight: 500;
+  cursor: pointer;
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  border: none;
+}
+
+button:hover:not(:disabled) {
+  filter: brightness(1.1);
+}
+
+button:disabled {
+  background: #2a2d3a;
+  color: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* Hint / Status Text */
+#status {
+  margin-top: 12px;
+  padding: 10px;
+
+  background: #161a23;
+  border: 1px solid #2a2d3a;
+  border-radius: 6px;
+
+  font-size: 12.5px;
+  color: #d1d5db;
+}
+
+/* Subtle divider (optional, if you add later) */
+.divider {
+  height: 1px;
+  margin: 10px 0;
+  background: #2a2d3a;
+}

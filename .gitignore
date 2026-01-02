@@ -1,0 +1,21 @@
+# Python virtual environment
+venv/
+.env/
+
+# Node / tooling (if added later)
+node_modules/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Editor configs
+.vscode/
+.idea/
+
+# Build / temp
+dist/
+build/
